@@ -27,7 +27,7 @@ something for a pre-MVP version, to get it above and beyond MVP ready.
   - Lack of experience (simply not having enough practice)
   - Not knowing what package to use (e.g. outdated projects, broken builds, )
   - Bugs (and not knowing how to find or solve them -- rubber duck debugging)
-  - Scope creep (e.g. letting a client keep adding features, not building essential features first, losing focus on stupid features)
+  - Scope creep (e.g. letting a client keep adding features, not building essential features first, losing focus on stupid features like how I cloned Amazon's multi-order shipping address for Teelaunch before Teelaunch was even launched; wasted 3 weeks of time; but it was cool feature I can say I had built...)
   - Not using best practice (e.g. bad NPM versions in package.json)
   - Not using DRY practices (e.g. not modularizing components)
   - Database queries (e.g. writing raw SQL, not using an ORM like knex/bookshelf or mongoose)
@@ -38,21 +38,37 @@ something for a pre-MVP version, to get it above and beyond MVP ready.
   - Deployment (e.g. what are the various ways I can deploy my code?  git hook? github hook? travis-ci? jenkins? travis-ci webhook? what if I'm behind a VPN?)
   - Code Quality (e.g. how can I help ensure my team commits solid working code, using the right libraries, all writing similarly)
   - Code Standards (e.g. how can I help ensure my team maintains a set JSHint config, a set editor config, etc)
+  - Code P2P Reviews (e.g. what is too much or too little? how do you handle bad code? how do you handle good code?  what slows down or speeds up?)
   - Debugging (e.g. not knowing what tools to use for debugging, not knowing how to use node-debugger, not knowing where to put console.log statements, not increasing log limit to Infinity in development, not having stage environment to test prod data with)
   - Alerts (e.g. not getting alerts when you should, like when a server goes down or when a user experiences a weird problem, or when transactions fail, or emails fail, etc)
   - Uptime (e.g. how can I maintain zero-downtime on deployments?  what happens when a user experiences an error and the entire server crashes for all other users?)
   - Setup and Services (e.g. not knowing how to set up your Mongo, Redis, PostgreSQL, MySQL boxes, not knowing how to set up hosting, not knowing how to manage DNS records)
   - Not having a secure server (e.g. not enforcing SSH only access, not locking it down, not enforcing fail2ban, iptables, etc)
   - Not practicing secure code standards (e.g. putting keys and passwords in a repository, not using a VPN when connecting over a coffee shop network -- not using IPSec)
+  - Not running tests (e.g. mocha, chai, gulp)
+  - Not having a build process (e.g. gulp or grunt)
+  - Not running load tests (e.g. arete, wrk, ab)
   - Not shipping quick enough (e.g. not being consistent, odd hours, not sleeping enough, not thinking clearly, wasting time with business bs, either focus on product or focus on sales - you can't do everything, you need a team)
   - Not using a good editor/IDE (e.g. using Textmate or an old version of Sublime, learning vim -- helps with muscle memory and speed)
   - Not using plugins in your editor (e.g. not using JSHint built into your editor)
   - Not having good music to listen to while coding (e.g. Spotify, Pandora, RDIO, SKY.FM, DI.FM, Clementine)
-  - Spending too much time working on a good music playlist when you should be coding
+  - Not knowing how to design a simple RESTful API for an MVP
+  - Not knowing how to design a simple websocket API for an MVP
+  - Not knowing how to document an API
+  - Not knowing how to get customers and sales (e.g. growth hack)
+  - Getting burned out (e.g. not having hobbies, taking breaks, focusing on work mode vs. play mode; subpar/mediocre vs top notch)
+  - Client expectations (what is too much, too little?)
+  - Not knowing how to do asset building (e.g. not knowing about concatenation, minification, uglification, etc -- resulting in slow perf -- not knowing of CDN)
 * Solutions: Existing solutions to these common problems?
 * Boilerplates/Frameworks: What's missing or should be missing from them for MVP's?  (show a scale and chart comparing the various frameworks)
   - Sails
   - Locomotive
+  - Talk about how they go against Node/npm ways of modularizing and staying as lean as possible
+  - Minimalism
+  - Speed/performance
+  - MVC/dependency injection
+  - Production vs development
+  - Not fast enough for MVP-style rapid dev aka "beast mode" (ref xmen)
 * Intro: Introducing Eskimo and Igloo
   - Background behind it
     - Expressling
