@@ -93,6 +93,7 @@ something for a pre-MVP version, to get it above and beyond MVP ready.
 * Example Usage: How has Igloo/Eskimo been used?
   - Teelaunch (backend for shipping stuff; exited co)
   - GetProve (api and website)
+  - Wakeup.io (website)
   - Song.st (api/music with Spotify/Last.fm - released today?)
   - Market Prophit (api/dev portal/documentation)
   - Seedfeed (api/website/ios app)
@@ -104,3 +105,5 @@ something for a pre-MVP version, to get it above and beyond MVP ready.
   - Forced to learn what the different modules do and what their individual API's are like (you absorb the methods and it becomes natural)
   - If a component is deemed core, then it will get added to igloo's boot folder for consumption as a dependency
 * Q&A session
+  - Jared Hanson with regard to cyclic dependencies and Electrolyte:
+    > No, cyclic dependencies are not currently supported &ndash; as a rule, when those occurs, it suggests that one of them should be decomposed further, so the relations can be in only one direction."
